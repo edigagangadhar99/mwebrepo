@@ -1,4 +1,4 @@
-<h1> <b> Naresh it is no. one institute in hyderabad</b> </h1>
+<h1>  Naresh it is no. one institute in hyderabad </h1>
 <h1> <u> My name is Gagan </u> </h1>
 <h2> Welcome To Maven Job </h2>
 
