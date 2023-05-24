@@ -19,8 +19,8 @@ pipeline {
         stage('CodeDeploy') {
             steps {
                
-        sshagent(['deploy_user']) {
-		 sh 'scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/pjob2/webapp/target/webapp.war ec2-user@65.0.74.68:/opt/apache-tomcat-9.0.75/webapps'
+        sshagent(['tomcat_deploy']) {
+		 sh 'scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/pjob2/webapp/target/webapp.war   ec2-user@65.0.74.68:/opt/apache-tomcat-9.0.75/webapps'
 			echo ""
 								}			
             }
