@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('CodeCheckout') {
             steps {
-               git credentialsId: 'git_credentials', url: 'https://github.com/edigagangadhar99/mwebrepo.git.git'
+               git credentialsId: 'git_credentials', url: 'https://github.com/edigagangadhar99/mwebrepo.git'
                echo 'CodeCheckout executed.'
             }
 			}
